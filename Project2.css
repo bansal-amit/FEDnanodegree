@@ -1,0 +1,91 @@
+
+h1{
+	text-align: center;
+	color: #294860;
+}
+/* margins push other elements away */
+h2{
+	margin: 10px;
+	color: black;
+}
+h3{
+	text-align: center;
+}
+/*This code makes the <body> have a BLACK background color. */
+body{
+	font-family: Helvetica;
+	background-color: lightskyblue;
+}
+.toc-cptdesc {
+	display: flex;
+	flex-direction: ltr;
+	flex-wrap: wrap;	
+	justify-content: center;
+}
+.toc-image-container{
+	text-align: center;	
+}
+.TOCconcept {
+	padding: 5px;
+	margin: 10px;
+	background-color: white;
+	border-radius: 15px;
+}
+/* the border-radius attribute makes the corners rounded and the margins clears out space for the stuff inside the lesson divs. 
+/*this code gives everything inside of the elements with class=lesson a gray background color. */
+.lesson1 {
+	background-color: lightgrey;
+	color: white;
+	border-radius: 25px;
+	border: 5px;
+	padding: 10px;
+	margin: 15px;
+}
+.lesson2 {
+	background-color: lightgrey;
+	color: white;
+	border-radius: 25px;
+	border: 5px;
+	padding: 10px;
+	margin: 15px;
+}
+
+/* an element inside has a class=concpt	*/
+.concept {
+	padding: 5px;
+	margin: 10px;
+	background-color: lightseagreen;
+	border-radius: 15px;
+	box-sizing: border-box;
+}
+.image	{
+	height: 140px;
+	border-radius: 150px;
+}
+.image-container{
+	text-align: center;
+	float: left;
+}
+
+/* This code sets the font size to 20 pixels, makes it bold, and centers it */
+.concept-title {
+	color: blue;
+	font-size: 20px;
+	font-weight:bold;
+	padding: 15px;
+	margin-top: 5px;
+}
+/* Since I have replaced the <em> tag with the <span class="italic">, in this section I make the italic section do something : */
+.italic {
+	font-style: italic;
+}
+/* I am setting a value for the bold */ 
+.bold {
+	font-weight:bold;
+}
+.concept-description{
+	color: black;
+	margin: 10px;
+	box-sizing: 500px;
+
+}
