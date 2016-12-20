@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <link rel="stylesheet" type="text/css" href="Project2.css">
+        <meta charset="UTF-8"> <!-- This lets the browser know about the character encoding being used -->
+        <link rel="stylesheet" href="Project2.css">
         <title>My Notes</title>
     </head>
     <body>
@@ -12,41 +13,37 @@
             <div class="toc-cptdesc">
                 <div class="lesson1toc">
                     <div class="concept-title">
-                        <ul>
-                            <li><a href="#lesson1">Lesson 1: The Basics of Web and HTML</a>
-                                <ul><a href="#howthewebworks">How the Web Works</a></ul>
-                                <ul><a href="#htmldef">What is HTML</a></ul>
-                                <ul><a href="#tagselements">What are Tags and Elements</a></ul>
-                                <ul><a href="#inlineblock">Inline vs Block Tags</a></ul>
-                                <ul><a href="#lesson1summary">Summary</a></ul>
-                            </li>
-                        </ul>
+                        <ol><a href="#lesson1">Lesson 1: The Basics of Web and HTML</a>
+                            <li><a href="#howthewebworks">How the Web Works</a></li>
+                            <li><a href="#htmldef">What is HTML</a></li>
+                            <li><a href="#tagselements">What are Tags and Elements</a></li>
+                            <li><a href="#inlineblock">Inline vs Block Tags</a></li>
+                            <li><a href="#lesson1summary">Summary</a></li>
+                        </ol>
                     </div>
                 </div>
                 <div class="lesson2toc">
                     <div class="concept-title">
-                        <ul>
-                            <li><a href="#lesson2">Lesson 2: Creating a Structured Document with HTML</a>
-                                <ul><a href="#chromedevtools">Chrome Developer Tools</a></ul>
-                                <ul><a href="#firstdraft">Design to First Draft</a></ul>
-                                <ul><a href="#morehtml">More about HTML</a></ul>
-                                <ul><a href="#cssvocab">CSS Vocabulary</a></ul>
-                                <ul><a href="#boxmodel">Box Model</a></ul>
-                            </li>
-                        </ul>
+                        <ol><a href="#lesson2">Lesson 2: Creating a Structured Document with HTML</a>
+                            <li><a href="#chromedevtools">Chrome Developer Tools</a></li>
+                            <li><a href="#firstdraft">Design to First Draft</a></li>
+                            <li><a href="#morehtml">More about HTML</a></li>
+                            <li><a href="#cssvocab">CSS Vocabulary</a></li>
+                            <li><a href="#boxmodel">Box Model</a></li>
+                        </ol>
                     </div>
                 </div>
                 <div class="toc-image-container">
-                    <img class="image" src="../myimages/html+js+css.jpeg">
+                    <img class="image" src="myimages/html+js+css.jpeg" alt="HTML5 javascript & CSS3">
                 </div>
             </div>    
         </div>
         <!--     start of Lesson 1              --> 
-        <div class="lesson1" id="lesson1">
+        <div class="lesson" id="lesson1">
             <h2>Lessson 1 : The Basics of Web and HTML</h2>
             <div class="concept">                   <!-- concept 1 -->
                 <div class="image-container">
-                    <img class="image" src="../myimages/internet.jpeg">
+                    <img class="image" src="myimages/internet.jpeg" alt="globe">
                 </div>
                 <div class="concept-description">
                     <div class="concept-title" id="howthewebworks">
@@ -59,7 +56,7 @@
             </div>
             <div class="concept">                       <!-- Concept 2 !-->
                 <div class="image-container">
-                    <img class = "image" src="../myimages/html.jpeg">    
+                    <img class = "image" src="myimages/html.jpeg" alt="HTML code">    
                 </div>
                 <div class="concept-description">
                     <div class="concept-title" id="htmldef">
@@ -108,7 +105,7 @@
                 
             </div>
         </div>                         <!-- end of Lesson 1            -->
-        <div class="lesson2" id="lesson2">           <!-- start Lesson 2             -->
+        <div class="lesson" id="lesson2">           <!-- start Lesson 2             -->
             <div>
                 <h2>Lesson 2 : Creating a Structured Document with HTML </h2>    
             </div>
@@ -175,7 +172,7 @@
                     <div class="concept-description">
                         <p>
                             <b>Content</b> is image or text that appears on the web page. think of this as the nucleus. This sits at the very center and the other layers serve to protect it so the other items don’t overlap with this. <b>Padding</b> clears an area around the content. this is affected by the background color of the box. Think of it as the space inside of the box that protects the content directly.<b>Border</b> goes around the padding and the content - this is inherited from the color property of the box. Lastly,
-                            <<b>margin</b> is the outermost layer and clears an area around the border.  The margin does not have a background color - its completely transparent; this can be thought of as the space between the boxes.
+                            <b>margin</b> is the outermost layer and clears an area around the border.  The margin does not have a background color - its completely transparent; this can be thought of as the space between the boxes.
                         </p>
                     </div>
                 </div>

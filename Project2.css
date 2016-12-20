@@ -18,11 +18,12 @@ body{
 }
 .toc-cptdesc {
 	display: flex;
-	flex-direction: ltr;
+	flex-direction: row;
 	flex-wrap: wrap;	
 	justify-content: center;
 }
 .toc-image-container{
+	width:  60%;
 	text-align: center;	
 }
 .TOCconcept {
@@ -33,7 +34,7 @@ body{
 }
 /* the border-radius attribute makes the corners rounded and the margins clears out space for the stuff inside the lesson divs. 
 /*this code gives everything inside of the elements with class=lesson a gray background color. */
-.lesson1 {
+.lesson {
 	background-color: lightgrey;
 	color: white;
 	border-radius: 25px;
@@ -41,15 +42,6 @@ body{
 	padding: 10px;
 	margin: 15px;
 }
-.lesson2 {
-	background-color: lightgrey;
-	color: white;
-	border-radius: 25px;
-	border: 5px;
-	padding: 10px;
-	margin: 15px;
-}
-
 /* an element inside has a class=concpt	*/
 .concept {
 	padding: 5px;
@@ -86,6 +78,6 @@ body{
 .concept-description{
 	color: black;
 	margin: 10px;
-	box-sizing: 500px;
+	box-sizing: border-box;
 
 }
